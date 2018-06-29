@@ -27,20 +27,23 @@ public class Main {
 	    PlayList playList=new PlayList();
 
 
-        playList.addAlbum("blackAlbum");
-        playList.addSongToAlbum("blackAlbum", "enterSandman", 2.30);
-        playList.addAlbum("reloaded");
-        playList.addSongToAlbum("reloaded", "unforgiven2", 3.30);
-        playList.addAlbum("useYourIllusion");
-        playList.addSongToAlbum("useYourIllusion", "nighTrain", 2.45);
-        playList.addAlbum("useYourIllusion2");
-        playList.addSongToAlbum("useYourIllusion2", "mrBrownStone", 2.10);
-        playList.addSongToAlbum("useYourIllusion2", "youCouldBeMine", 2.20);
-        playList.addSong("useYourIllusion2", "mrBrownStone");
-        playList.addSong("useYourIllusion2", "youCouldBeMine");
-        playList.addSong("reloaded", "unforgiven2");
-        playList.addSong("blackAlbum", "enterSandman");
-        playList.addSong("blackAlbum", "enterSandman");
+
+
+        playList.addAlbum("Sandnessary");
+        playList.addSongToAlbum("Sandnessary", "Stolen Dance", 2.30);
+        playList.addAlbum("A Quien Quiera Escuchar");
+        playList.addSongToAlbum("A Quien Quiera Escuchar", "La Mordidita", 3.30);
+        playList.addAlbum("Get Rich or Die Trying2");
+        playList.addSongToAlbum("Get Rich or Die Trying2", "What up Gangsta", 2.45);
+        playList.addAlbum("Get Rich or Die Trying");
+        playList.addSongToAlbum("Get Rich or Die Trying", "If I Cant", 2.10);
+        playList.addSongToAlbum("Get Rich or Die Trying", "In Da Club", 2.20);
+        playList.addSong("Get Rich or Die Trying", "If I Cant");
+        playList.addSong("Get Rich or Die Trying", "In Da Club");
+        playList.addSong("A Quien Quiera Escuchar", "La Mordidita");
+        playList.addSong("Sandnessary", "Stolen Dance");
+        playList.addSong("Sandnessary", "Stolen Dance");
+
 
         menu(playList);
 

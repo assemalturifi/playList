@@ -22,4 +22,5 @@ public class Album {
         Song song=new Song(songName,duration);
         this.songs.add(song);
     }
+
 }
